@@ -1,0 +1,270 @@
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    nav {
+        background-color: #DD5555;
+        margin-top: 0;
+        padding-top: 16px;
+    }
+    
+    img.logo {
+        height: 28px;
+        width: 120px;
+        margin-right: 28px;
+        margin-left: 131px;
+    }
+    
+    nav>ul {
+        margin: 0;
+        display: flex;
+        padding: 19px 0;
+    }
+    
+    a.navigation {
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 14px;
+    }
+    
+    a.navigation:hover {
+        background-color: black;
+        opacity: 0.3;
+        padding: 36px 19px;
+    }
+    
+    nav,
+    li {
+        list-style-type: none;
+        padding-right: 19px;
+        text-align: center;
+    }
+    
+    .hero {
+        background-image: url(../img/about.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        width: 1400px;
+        height: 658px;
+    }
+    
+    .hero h1 {
+        font-size: 48px;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 272px;
+        margin: 0;
+    }
+    
+    .hero h2 {
+        color: white;
+        border-bottom: solid 2px white;
+        padding-bottom: 20px;
+        font-size: 24px;
+        font-weight: 300;
+        max-width: 390px;
+        margin: auto;
+    }
+    
+    .boutons-hero {
+        margin-top: 33px;
+        display: inline-flex;
+        font-size: 17px;
+    }
+    
+    .boutons-hero a {
+        text-decoration: none;
+        list-style-type: none;
+        color: #2E2E2E;
+    }
+    
+    .icones {
+        padding-right: 14px;
+        font-size: 18px;
+    }
+    
+    h3 {
+        text-transform: uppercase;
+        font-size: 36px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .btn-white {
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    
+    .wrapper {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        margin: auto;
+    }
+    
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .two {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .three {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    
+    .four {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .five {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .six {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    
+    .illustration {
+        display: flex;
+        background-color: #DD5555;
+        border: 1px solid #DD5555;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+    
+    img.trucs {
+        margin: auto;
+    }
+    
+    .wrapper p {
+        font-size: 16px;
+        font-weight: 200;
+        width: 358px;
+    }
+    
+    .wrapper h4 {
+        font-size: 28px;
+    }
+    
+    .bg-team h1 {
+        font-size: 48px;
+        color: white;
+        text-align: center;
+        padding-top: 81px;
+    }
+    
+    .bg-team {
+        background-image: url(../img/team.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 240px;
+        margin: 20px 0;
+    }
+    
+    .profils ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .avatar {
+        border-radius: 50%;
+        height: 239px;
+    }
+    
+    .profils h4 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+    
+    img.envelope {
+        max-height: 18px;
+        width: 24px;
+        padding-right: 5px;
+    }
+    
+    .btn-orange {
+        background-color: #DD5555;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .btn-orange a {
+        font-size: 18px;
+        font-weight: 100;
+    }
+    
+    .send {
+        text-transform: uppercase;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 51px;
+        font-weight: 200;
+    }
+    
+    .formulaire {
+        margin-top: 40px;
+        background-color: #DD5555;
+        color: white;
+    }
+    
+    .wrapperForm {
+        display: flex;
+        justify-content: center;
+        width: 748px;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+    
+    .btn-contact {
+        float: right;
+        text-decoration: none;
+        color: #2E2E2E;
+        font-size: 18px;
+        font-weight: 200;
+        margin-top: 20px;
+    }
+    
+    .nom {
+        float: right;
+    }
+    
+    input.email,
+    input.name {
+        height: 32px;
+        width: 358px;
+    }
+    
+    .message {
+        padding-top: 140px;
+    }
+    
+    label {
+        font-size: 16px;
+        font-weight: 200;
+    }
