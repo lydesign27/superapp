@@ -109,6 +109,11 @@
         margin: auto;
     }
     
+    article.wrapper {
+        padding-left: 10%;
+        margin: auto;
+    }
+    
     .one {
         grid-column: 1;
         grid-row: 1;
